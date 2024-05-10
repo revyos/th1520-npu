@@ -1,0 +1,39 @@
+{
+    "backend_bitdepth": 8, 
+    "output": {
+        "bits": 32,
+        "float": true
+    }, 
+    "callback": {
+        "bits": 32,
+	"float": true
+    }, 
+    "memory": {
+        "bits": 8
+    }, 
+    "input": {
+        "bits": 32,
+	"float": true
+    }, 
+    "intern_bitdepth": 8,
+		"layer_types": [
+		{
+			"type":"CONV",
+			"weights": {
+				"bits":8
+			},
+			"bias": {
+				"bits":8
+			}
+		},
+		{
+			"type":"INNERPRODUCT",
+			"weights": {
+				"bits":8
+			},
+			"bias": {
+				"bits":8
+			}
+		}
+	]
+}
