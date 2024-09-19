@@ -1,3 +1,9 @@
+th1520-npu (2.0.2) unstable; urgency=medium
+
+  * Sync sdk 2.0.2 nna
+
+ -- Han Gao <gaohan@iscas.ac.cn>  Thu, 19 Sep 2024 19:57:38 +0800
+
 th1520-npu (1.5.7) unstable; urgency=medium
 
   * Sync sdk 1.5.7 nna
